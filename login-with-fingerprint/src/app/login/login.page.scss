@@ -1,0 +1,26 @@
+.img-container {
+  width: 100%;
+  text-align: center;
+  img {
+    width: 50%;
+    display: initial;
+  }
+}
+
+ion-content {
+  --padding-top: 20%;
+}
+
+ion-card {
+  border-radius: 18px;
+  padding-top: 2%;
+  ion-card-content {
+    ion-button {
+      height: 53px;
+      margin: 15px 5px;
+    }
+    ion-button:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
