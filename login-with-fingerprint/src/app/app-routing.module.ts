@@ -9,9 +9,13 @@ const routes: Routes = [
       import('./login/login.module').then(m => m.LoginPageModule)
   },
   {
-    path: 'fingerprint',
-    loadChildren: () => import('./fingerprint/fingerprint.module').then( m => m.FingerprintPageModule)
-  }
+    path: 'finger-print',
+    loadChildren: () =>
+      import('./fingerprint/fingerprint.module').then(
+        m => m.FingerprintPageModule
+      )
+  },
+  { path: '**', redirectTo: 'login' }
 ];
 
 @NgModule({
