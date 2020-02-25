@@ -33,9 +33,6 @@
             ],
             "styles": [
               {
-                "input": "node_modules/animate.css/animate.min.css"
-              },
-              {
                 "input": "src/theme/variables.scss"
               },
               {
