@@ -1,0 +1,21 @@
+ion-tabs {
+  ion-header {
+    ion-toolbar {
+      ion-title {
+        font-size: 2.1em;
+        font-weight: bold;
+        font-family: "korolev heavy", sans-serif;
+        letter-spacing: -1px;
+        color: var(--ion-color-primary);
+      }
+      ion-buttons {
+        align-content: space-between;
+        ion-button {
+          background-color: lightgray;
+          border-radius: 50%;
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+}
