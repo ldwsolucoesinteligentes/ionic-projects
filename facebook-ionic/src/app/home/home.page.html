@@ -1,1 +1,21 @@
-<ion-content [fullscreen]="true"> </ion-content>
+<ion-content [fullscreen]="true">
+  <ldw-stories></ldw-stories>
+  <ion-card class="add-post">
+    <ion-card-content>
+      <ion-avatar>
+        <img
+          src="https://media-exp1.licdn.com/dms/image/C4D03AQEWswPGb3GBDA/profile-displayphoto-shrink_100_100/0?e=1603929600&v=beta&t=Y_Q0B6kki_Csg7n_Qgwu7xaZai_iFexjeluKsXBt37s"
+        />
+      </ion-avatar>
+      <ion-button class="post" fill="default">
+        Add a post
+      </ion-button>
+      <ion-buttons slot="end">
+        <ion-button class="icon">
+          <ion-icon slot="icon-only" name="image"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-card-content>
+  </ion-card>
+  <ldw-post-card></ldw-post-card>
+</ion-content>

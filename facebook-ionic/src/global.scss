@@ -33,5 +33,9 @@
 @font-face {
   font-family: "korolev heavy";
   font-weight: bold;
-  src: url("/assets/fonts/Korolev_Heavy.otf") format("opentype");
+  src: url("/assets/fonts/Korolev_Bold.otf") format("opentype");
+}
+
+ion-content {
+  --background: var(--fb-background);
 }

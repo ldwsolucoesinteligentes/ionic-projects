@@ -14,16 +14,20 @@
   </ion-header>
   <ion-tab-bar slot="top">
     <ion-tab-button tab="home">
-      <ion-icon name="home"></ion-icon>
+      <ion-icon size="large" name="home-fb"></ion-icon>
     </ion-tab-button>
     <ion-tab-button tab="watch">
-      <ion-icon name="videocam-outline"></ion-icon>
+      <ion-icon size="large" name="video-fb-outline"></ion-icon>
     </ion-tab-button>
     <ion-tab-button tab="groups">
-      <ion-icon name="people-circle-outline"></ion-icon>
+      <ion-icon size="large" name="people-circle-outline"></ion-icon>
     </ion-tab-button>
     <ion-tab-button tab="notifications">
-      <ion-icon name="notifications-outline"></ion-icon>
+      <ion-icon size="large" name="notifications-outline"></ion-icon>
+      <ion-badge color="danger">2</ion-badge>
+    </ion-tab-button>
+    <ion-tab-button (click)="openMenu()">
+      <ion-icon size="large" name="menu"></ion-icon>
     </ion-tab-button>
   </ion-tab-bar>
 </ion-tabs>

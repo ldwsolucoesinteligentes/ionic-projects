@@ -1,0 +1,20 @@
+<div class="stories-container">
+  <div class="list-stories">
+    <div
+      class="stories"
+      *ngFor="let item of stories; let i = index"
+      [style.backgroundImage]="'url(' + item.posts[0].image + ')'"
+    >
+      <ion-avatar *ngIf="i != 0">
+        <img [src]="item.userImage" />
+      </ion-avatar>
+
+      <ion-avatar *ngIf="i == 0">
+        <ion-icon name="add"></ion-icon>
+      </ion-avatar>
+      <div class="user-name">
+        <ion-label color="light" [innerHTML]="item.userName"></ion-label>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,49 @@
+.stories-container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-left: 10px;
+  background-color: #ffffff;
+  padding-bottom: 12px;
+  .list-stories {
+    height: 100%;
+    white-space: nowrap;
+    padding-top: 15px;
+    .stories {
+      display: inline-block;
+      border-radius: 15px;
+      width: 120px;
+      height: 200px;
+      margin: 0 4px;
+      background-size: cover;
+      background-position: center;
+      img.img-stories {
+        height: 100%;
+      }
+      ion-avatar {
+        border: 4px solid #ffffff;
+        width: 45px;
+        height: 45px;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+      ion-icon {
+        font-size: 35px;
+        color: #ffffff;
+      }
+      .user-name {
+        padding-top: 75%;
+        padding-left: 7px;
+        ion-label {
+          font-weight: 600;
+          text-shadow: 0px 1px #171717;
+        }
+      }
+    }
+    .selected-img {
+      border: 2px solid var(--ion-color-primary);
+    }
+  }
+}
+::-webkit-scrollbar {
+  display: none;
+}

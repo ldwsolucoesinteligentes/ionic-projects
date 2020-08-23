@@ -1,0 +1,75 @@
+<ion-card>
+  <ion-card-header>
+    <ion-avatar>
+      <img
+        src="https://scontent-gig2-1.xx.fbcdn.net/v/t1.0-9/104485136_3959234767482263_4791294630769591991_o.jpg?_nc_cat=104&_nc_sid=09cbfe&_nc_ohc=ZTibalbwYV0AX-Dmxyl&_nc_ht=scontent-gig2-1.xx&oh=90cce550a5f1e59594a49821a7f0fa4f&oe=5F673C2A"
+      />
+    </ion-avatar>
+    <div class="author">
+      <ion-card-title>
+        <ion-label>Jessica Valdozende</ion-label>
+        <ion-icon color="medium" name="play"></ion-icon>
+        <ion-label>Coast to Coast Cyclists</ion-label>
+      </ion-card-title>
+      <ion-card-subtitle
+        ><ion-label>Just now</ion-label>
+        <p>.</p>
+        <ion-label>1.2M views</ion-label>
+        <ion-icon color="medium" name="earth"></ion-icon>
+      </ion-card-subtitle>
+    </div>
+    <ion-button color="medium" class="icon" fill="clear">
+      <ion-icon name="ellipsis-horizontal"></ion-icon>
+    </ion-button>
+  </ion-card-header>
+  <ion-card-content>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni
+      dolorem blanditiis perspiciatis beatae, ullam dolorum, harum hic
+      consequatur ut rem? Doloremque expedita veniam sit optio eius distinctio
+      cum officiis!
+    </p>
+    <ion-img
+      src="
+        https://img.ibxk.com.br/ns/rexposta/2016/03/13/13044825637002.jpg?watermark=neaki&w=600
+      "
+    ></ion-img>
+    <div class="interactions">
+      <div style="display: flex;">
+        <div class="reactions thumbs-up">
+          <ion-icon
+            color="light"
+            slot="icon-only"
+            name="thumb-up-fb"
+          ></ion-icon>
+        </div>
+        <div class="reactions heart">
+          <ion-icon color="light" slot="icon-only" name="heart"></ion-icon>
+        </div>
+        <ion-label class="count" color="medium">4,937</ion-label>
+      </div>
+      <ion-label class="count-comments" color="medium">112 Comments</ion-label>
+    </div>
+    <ion-item-divider> </ion-item-divider>
+    <div class="actions">
+      <ion-button color="medium" fill="clear" (click)="liked = !liked">
+        <ion-icon
+          slot="start"
+          [color]="liked ? 'primary' : 'medium'"
+          [name]="liked ? 'thumb-up-fb' : 'thumb-up-fb-outline'"
+        ></ion-icon>
+        Like
+      </ion-button>
+
+      <ion-button color="medium" fill="clear">
+        <ion-icon slot="start" name="chatbox-outline"></ion-icon>
+        Comment
+      </ion-button>
+
+      <ion-button color="medium" fill="clear">
+        <ion-icon slot="start" name="arrow-redo-outline"></ion-icon>
+        Share
+      </ion-button>
+    </div>
+  </ion-card-content>
+</ion-card>
