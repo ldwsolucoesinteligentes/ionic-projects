@@ -1,0 +1,167 @@
+{
+  "posts": [
+    {
+      "id": "7153dc08-d2d3-4c44-81bf-28cfa9079ff9",
+      "author": {
+        "id": "7153dc08-d2d3-4c44-81bf-28cfa9079ff9",
+        "userName": "Joe Doe",
+        "userImageURL": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150&w=150"
+      },
+      "date": "2020-08-30T19:27:23-03:00",
+      "title": "Livin' La Vida Loca",
+      "location": [40.4381311, -3.8196196],
+      "media": [
+        {
+          "id": "8be02730-5bf2-44c6-8dac-a3a61640953c",
+          "type": "image",
+          "url": "https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzQ4NDA5MzU4/ricky-martin-9542230-1-402.jpg"
+        }
+      ],
+      "body": "La reina de la noche La diosa del vudú Yo no podré salvarme Podrás salvarte tú? La tela de la araña La uña del dragón Te lleva a los infiernos Ella es tu adicción Te besa y te desnuda con su baile demencial Tú cierras los ojitos y te dejas arrastrar Tú te dejas arrastrar Ella que será She's livin' la vida loca Y te dolerá Sí, de verdad te toca",
+      "postIn": "Rick Martin Forever",
+      "views": 1200000,
+      "shares": [],
+      "comments": [
+        {
+          "id": "3c2df20b-b269-4982-8174-d04455c04f6a",
+          "author": {
+            "id": "7153dc08-d2d3-4c44-81bf-28cfa9079ff9",
+            "userName": "Joe Doe",
+            "userImageURL": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150&w=150"
+          },
+          "comment": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a estrutura atual da organização nos obriga à análise de todos os recursos funcionais envolvidos.",
+          "date": "2020-08-31T15:30:00-03:00",
+          "interactions": [
+            {
+              "userId": "7153dc08-d2d3-4c44-81bf-28cfa9079ff9",
+              "type": {
+                "type": "love",
+                "icon": "heart"
+              }
+            }
+          ],
+          "comments": []
+        }
+      ],
+      "interactions": [
+        {
+          "userId": "7d87f2d9-2b25-4da2-ae65-159b120a348a",
+          "type": {
+            "name": "like",
+            "icon": "thumb-up-fb"
+          }
+        },
+        {
+          "userId": "7d87f2d9-2b25-4da2-ae65-159b120a348b",
+          "type": {
+            "name": "love",
+            "icon": "heart"
+          }
+        },
+        {
+          "userId": "7d87f2d9-2b25-4da2-ae65-159b120a348d",
+          "type": {
+            "name": "care",
+            "icon": "care"
+          }
+        },
+        {
+          "userId": "7d87f2d9-2b25-4da2-ae65-159b120a348e",
+          "type": {
+            "name": "care",
+            "icon": "care"
+          }
+        },
+        {
+          "userId": "7d87f2d9-2b25-4da2-ae65-159b120a348f",
+          "type": {
+            "name": "grinning",
+            "icon": "grinning-face"
+          }
+        },
+        {
+          "userId": "7d87f2d9-2b25-4da2-ae65-159b120a348h",
+          "type": {
+            "name": "pouting",
+            "icon": "pouting-face"
+          }
+        },
+        {
+          "userId": "7d87f2d9-2b25-4da2-ae65-159b120a348g",
+          "type": {
+            "name": "fear",
+            "icon": "face-screaming-in-fear"
+          }
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "name": "like",
+      "icon": "thumb-up-fb"
+    },
+    {
+      "name": "love",
+      "icon": "heart"
+    },
+    {
+      "name": "fear",
+      "icon": "face-screaming-in-fear"
+    },
+    {
+      "name": "crying",
+      "icon": "crying-face"
+    },
+    {
+      "name": "grinning",
+      "icon": "grinning-face"
+    },
+    {
+      "name": "pouting",
+      "icon": "pouting-face"
+    },
+    {
+      "name": "care",
+      "icon": "care"
+    }
+  ],
+  "stories": [
+    {
+      "id": "bde804bc-c594-48a3-9c7b-f52017ff85f6",
+      "author": {
+        "id": "7d87f2d9-2b25-4da2-ae65-159b120a348a",
+        "userName": "Jack Angelo",
+        "userImageURL": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150&w=150"
+      },
+      "stories": [
+        {
+          "imageURL": "https://images.pexels.com/photos/2393835/pexels-photo-2393835.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=500&w=350",
+          "body": "My new Toy 😍"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "7153dc08-d2d3-4c44-81bf-28cfa9079ff9",
+      "userName": "Joe Doe",
+      "userImageURL": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150&w=150",
+      "fullName": "Joe Doe Doo",
+      "birthday": "1990-09-15",
+      "active": true,
+      "biography": "O empenho em analisar o desafiador cenário globalizado aponta para a melhoria das formas de ação. Pensando mais a longo prazo, a constante divulgação das informações obstaculiza a apreciação da importância da gestão inovadora da qual fazemos parte.",
+      "posts": []
+    },
+    {
+      "id": "7d87f2d9-2b25-4da2-ae65-159b120a348a",
+      "userName": "Jack Angelo",
+      "userImageURL": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150&w=150",
+      "fullName": "Jack Angelo Sort",
+      "birthday": "1970-02-13",
+      "active": true,
+      "biography": "Acima de tudo, é fundamental ressaltar que o desenvolvimento contínuo de distintas formas de atuação acarreta um processo de reformulação e modernização da gestão inovadora da qual fazemos parte. Nunca é demais lembrar o peso e o significado destes problemas, uma vez que o entendimento das metas propostas facilita a criação das posturas dos órgãos dirigentes com relação às suas atribuições.",
+      "posts": []
+    }
+  ]
+}

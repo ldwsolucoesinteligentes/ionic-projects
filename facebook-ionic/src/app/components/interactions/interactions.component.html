@@ -1,0 +1,24 @@
+<div class="interactions">
+  <div style="display: flex">
+    <div
+      *ngFor="let interaction of interactions; let i = index"
+      class="reactions {{ interaction.type.icon }}"
+      [style.zIndex]="interactions.length - i"
+    >
+      <ion-icon
+        color="light"
+        slot="icon-only"
+        [class.adapt-non-native-icon]="
+          interaction.type.icon !== 'heart' &&
+          interaction.type.icon !== 'thumb-up-fb'
+        "
+        [name]="interaction.type.icon"
+      ></ion-icon>
+    </div>
+    <ion-label class="count" color="medium">{{ interactionCount }}</ion-label>
+  </div>
+  <ion-label class="count-comments" color="medium"
+    >{{ commentsCount }}
+    {{ commentsCount > 1 ? "Comments" : "Comment" }}</ion-label
+  >
+</div>

@@ -10,6 +10,7 @@ ion-card {
     align-items: center;
     .author {
       padding-left: 10px;
+      flex: 2;
       ion-card-title {
         display: flex;
         font-weight: 600;
@@ -51,43 +52,12 @@ ion-card {
     ion-item-divider {
       min-height: 10px;
     }
-    .actions {
-      display: flex;
-      justify-content: space-between;
-      ion-button {
-        text-transform: capitalize;
-      }
+    p {
+      margin-bottom: 10px;
     }
-  }
-  .interactions {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-
-    .reactions {
-      width: 25px;
-      height: 25px;
-      padding-top: 2px;
-      border-radius: 50%;
-      text-align: center;
-      border: 2px solid #ffffff;
-      margin-right: -5px;
-    }
-    .thumbs-up {
-      background-color: var(--ion-color-primary);
-      z-index: 5;
-    }
-
-    .heart {
-      background-color: var(--ion-color-danger);
-      z-index: 4;
-    }
-    ion-label.count {
-      margin-left: 10px;
-    }
-    ion-label.count-comments,
-    ion-label.count {
-      align-self: center;
+    ion-img {
+      margin-left: -16px;
+      margin-right: -16px;
     }
   }
 }

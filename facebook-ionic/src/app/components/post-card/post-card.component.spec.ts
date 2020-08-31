@@ -1,16 +1,16 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { IonicModule } from '@ionic/angular';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import { IonicModule } from "@ionic/angular";
 
-import { PostCardComponent } from './post-card.component';
+import { PostCardComponent } from "./post-card.component";
 
-describe('PostCardComponent', () => {
+describe("PostCardComponent", () => {
   let component: PostCardComponent;
   let fixture: ComponentFixture<PostCardComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PostCardComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [PostCardComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(PostCardComponent);
@@ -18,7 +18,7 @@ describe('PostCardComponent', () => {
     fixture.detectChanges();
   }));
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

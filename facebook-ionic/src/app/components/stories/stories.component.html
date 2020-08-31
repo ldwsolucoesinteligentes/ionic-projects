@@ -1,19 +1,19 @@
 <div class="stories-container">
-  <div class="list-stories">
+  <div class="list-stories" *ngIf="stories && stories.length">
     <div
       class="stories"
       *ngFor="let item of stories; let i = index"
-      [style.backgroundImage]="'url(' + item.posts[0].image + ')'"
+      [style.backgroundImage]="'url(' + item.stories[0].imageURL + ')'"
     >
       <ion-avatar *ngIf="i != 0">
-        <img [src]="item.userImage" />
+        <img [src]="item.author.userImageURL" />
       </ion-avatar>
 
       <ion-avatar *ngIf="i == 0">
         <ion-icon name="add"></ion-icon>
       </ion-avatar>
       <div class="user-name">
-        <ion-label color="light" [innerHTML]="item.userName"></ion-label>
+        <ion-label color="light" [innerHTML]="item.author.userName"></ion-label>
       </div>
     </div>
   </div>

@@ -1,0 +1,20 @@
+<div class="actions">
+  <ion-button color="medium" fill="clear" (click)="liked = !liked">
+    <ion-icon
+      slot="start"
+      [color]="liked ? 'primary' : 'medium'"
+      [name]="liked ? 'thumb-up-fb' : 'thumb-up-fb-outline'"
+    ></ion-icon>
+    Like
+  </ion-button>
+
+  <ion-button color="medium" fill="clear">
+    <ion-icon slot="start" name="chatbox-outline"></ion-icon>
+    Comment
+  </ion-button>
+
+  <ion-button color="medium" fill="clear">
+    <ion-icon slot="start" name="arrow-redo-outline"></ion-icon>
+    Share
+  </ion-button>
+</div>

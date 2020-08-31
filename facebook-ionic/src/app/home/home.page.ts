@@ -1,12 +1,33 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
+import { Post } from "../components/post-card/post";
+import { PostService } from "../services/post/post.service";
+import { Observable } from "rxjs";
+import { Story } from "../components/stories/story.ts";
+import { StoriesService } from "../services/stories/stories.service";
+import { AuthService } from "../services/auth/auth.service";
+import { User } from "../profile/profile";
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: "ldw-home",
+  templateUrl: "home.page.html",
+  styleUrls: ["home.page.scss"],
 })
-export class HomePage {
+export class HomePage implements OnInit {
+  posts$: Observable<Post[]>;
+  stories$: Observable<Story[]>;
+  user$: Observable<User>;
 
-  constructor() {}
+  constructor(
+    private postService: PostService,
+    private storiesService: StoriesService,
+    private authService: AuthService
+  ) {}
 
+  ngOnInit() {
+    this.posts$ = this.postService.getPosts(1);
+    this.stories$ = this.storiesService.getStories("", 1);
+    this.user$ = this.authService.getUser(
+      "7153dc08-d2d3-4c44-81bf-28cfa9079ff9"
+    );
+  }
 }
