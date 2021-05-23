@@ -1,0 +1,25 @@
+.post-card__like {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  padding-top: 5px;
+}
+
+.post-card__like ion-avatar,
+.post-card__like ion-note {
+  display: flex;
+}
+
+.post-card__like ion-avatar {
+  width: 20px;
+  height: 20px;
+}
+
+.post-card__like ion-note {
+  margin-left: 5px;
+}
+
+.post-card__like ion-note b {
+  margin-left: 2px;
+  margin-right: 2px;
+}

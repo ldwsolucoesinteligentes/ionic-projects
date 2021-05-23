@@ -1,0 +1,13 @@
+.ldw-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ldw-avatar ion-img {
+  align-self: center;
+}
+
+.ldw-avatar__border-active {
+  border: 3px solid #e85c55;
+}

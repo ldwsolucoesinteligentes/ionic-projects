@@ -1,0 +1,43 @@
+.post-card-header {
+  display: flex;
+  flex-direction: row;
+}
+.post-card-header .ldw-avatar {
+  flex: 1;
+  width: 45px;
+  height: 42px;
+}
+
+.post-card-header .ldw-avatar ion-img {
+  width: 42px;
+  height: 42px;
+}
+
+.post-card-header__info {
+  padding-left: 5px;
+  padding-top: 2px;
+  display: flex;
+  flex: 5;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post-card-header__info ion-label,
+.post-card-header__info ion-note {
+  color: rgba(38, 38, 38, 1) !important;
+}
+.post-card-header__info ion-label {
+  font-weight: 600;
+  font-size: 14px !important;
+}
+
+.post-card-header__info ion-note {
+  font-size: 12px;
+}
+
+.post-card-header__view-more {
+  display: flex;
+  flex: 1;
+  align-self: center;
+  justify-content: flex-end;
+}

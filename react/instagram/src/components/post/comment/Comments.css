@@ -1,0 +1,39 @@
+.post-card__comments,
+.post-card__comments .post-card__comments-preview,
+.post-card__comments .post-card__comments-preview ion-note,
+.post-card__comments .post-card__comments-preview ion-icon,
+.post-card__comments button {
+  display: flex;
+}
+
+.post-card__comments {
+  padding-left: 15px;
+}
+
+.post-card__comments button {
+  background: transparent;
+  color: rgba(142, 142, 142, 1);
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5px;
+}
+
+.post-card__comments {
+  flex-direction: column;
+  padding: 5px 0 5px 0;
+}
+
+.post-card__comments .post-card__comments-preview {
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.post-card__comments .post-card__comments-preview ion-note {
+  flex: 10;
+}
+
+.post-card__comments .post-card__comments-preview ion-icon {
+  flex: 1;
+  justify-content: center;
+}

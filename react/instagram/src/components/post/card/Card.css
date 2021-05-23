@@ -1,0 +1,62 @@
+.post-card {
+  margin-inline: 0;
+  margin: 0;
+}
+
+.post-card__likes,
+.post-card__content,
+.post-card__comments,
+.post-card__date {
+  padding-left: 15px;
+}
+
+.post-card__iterations,
+.post-card ion-card-content,
+.post-card__iterations-left,
+.post-card__iterations-right,
+.post-card__likes,
+.post-card__date {
+  display: flex;
+}
+
+.post-card ion-card-content {
+  flex-direction: column;
+  -webkit-padding-start: 0;
+  -webkit-padding-end: 0;
+}
+
+.post-card ion-card-content .post-card__image {
+  height: 411px;
+  width: 100%;
+}
+
+.post-card ion-card-header {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.post-card__iterations {
+  flex-direction: row;
+  padding: 15px 5px 2px;
+}
+.post-card__iterations ion-icon {
+  color: rgb(38, 38, 38);
+}
+
+.post-card__iterations-left {
+  flex: 1;
+}
+.post-card__iterations-left ion-icon {
+  margin: 0 5px;
+}
+.post-card__iterations-right {
+  flex: auto;
+  justify-content: flex-end;
+}
+
+.post-card__date {
+  color: rgba(142, 142, 142, 1);
+  text-transform: uppercase;
+  font-size: 10px;
+}

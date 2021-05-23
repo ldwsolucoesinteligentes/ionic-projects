@@ -18,8 +18,11 @@ import { useContext, useEffect } from "react";
 import { store } from "../store";
 import PostService from "../services/PostService";
 import "./Home.css";
+import Header from "../components/header/Header";
 import { AddPosts } from "../store/actions";
 import { AsyncCallError } from "../store/actions/async-calls";
+import Stories from "../components/stories/Stories";
+import Card from "../components/post/card/Card";
 
 const Home: React.FC = () => {
   const { state, dispatch } = useContext(store);
@@ -32,48 +35,20 @@ const Home: React.FC = () => {
   }, [dispatch]);
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Instagram</IonTitle>
-        </IonToolbar>
-      </IonHeader>
+      <Header></Header>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
         <IonLoading
           message="loading posts..."
           isOpen={state.isLoading}
         ></IonLoading>
+
         {!state.isLoading && (
-          <IonList>
-            <IonListHeader>Posts</IonListHeader>
-            {state.posts.map((p, i) => (
-              <IonItem key={i}>
-                <IonCard>
-                  <IonCardContent>
-                    <div>{p.content.text}</div>
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                      }}
-                    >
-                      <IonAvatar slot="start">
-                        <IonImg src={p.user.profileImageUrl} />
-                      </IonAvatar>
-                      <IonLabel style={{ marginLeft: "1rem" }}>
-                        {p.user.name}
-                      </IonLabel>
-                    </div>
-                  </IonCardContent>
-                </IonCard>
-              </IonItem>
-            ))}
-          </IonList>
+          <IonToolbar>
+            <Stories stories={state.stories}></Stories>
+          </IonToolbar>
         )}
+        {!state.isLoading &&
+          state.posts.map((p, i) => <Card key={i} post={p} />)}
       </IonContent>
     </IonPage>
   );

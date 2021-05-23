@@ -1,0 +1,18 @@
+ion-header ion-toolbar:first-child ion-img {
+  max-width: 103px;
+  margin-left: 30%;
+}
+
+ion-header ion-buttons ion-button {
+  width: 56px !important;
+  height: 56px !important;
+  color: rgb(38, 38, 38);
+}
+
+ion-header ion-buttons:first-child ion-icon {
+  font-size: 36px !important;
+}
+
+ion-header ion-buttons:last-child ion-icon {
+  font-size: 30px !important;
+}

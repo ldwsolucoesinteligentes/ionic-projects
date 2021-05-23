@@ -23,6 +23,7 @@ const loggerReducer = loggerMiddleware(reducer);
 
 function AppContextProvider({ children }: { children: ReactNode }) {
   const [state, dispatch] = useReducer(loggerReducer, fullInitialState);
+  // TODO: save state in local storage
   // useEffect(() => {
   //   persisteState({ posts: state.posts });
   // }, [state]);

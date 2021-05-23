@@ -1,0 +1,18 @@
+.post-card__content {
+  display: flex;
+}
+
+.post-card__content ion-note {
+  text-align: left;
+}
+.post-card__content ion-note b {
+  margin-right: 5px;
+}
+
+.post-card__content-mode button {
+  background: transparent;
+  color: rgba(142, 142, 142, 1);
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5px;
+}

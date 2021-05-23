@@ -1,0 +1,26 @@
+.stories {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-x: auto;
+  --background: #fafafa;
+  min-height: 103px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.stories ion-note {
+  font-size: 12px !important;
+  margin-top: 5px;
+}
+
+.stories .add-story {
+  position: relative;
+  font-size: 22px;
+  margin: -21px -45px 0 0;
+  background-color: white !important;
+  border-radius: 50%;
+}
+
+.stories .ldw-avatar {
+  padding-left: 20px;
+}
