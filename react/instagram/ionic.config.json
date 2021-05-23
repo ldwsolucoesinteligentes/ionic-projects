@@ -1,0 +1,9 @@
+{
+  "name": "instagram",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    }
+  },
+  "type": "react"
+}
